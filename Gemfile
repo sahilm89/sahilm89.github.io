@@ -3,6 +3,8 @@ group :jekyll_plugins do
     gem 'github-pages'
     gem 'jekyll'
     gem 'jekyll-email-protect'
+    gem 'jekyll-sitemap'
+    gem 'jekyll-seo-tag'
     gem 'jekyll-github-metadata'
     gem 'jekyll-paginate-v2'
     gem 'jekyll-scholar'

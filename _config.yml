@@ -124,6 +124,7 @@ plugins:
   - jekyll-email-protect
   - jekyll-github-metadata
   - jekyll-paginate-v2
+  - jekyll-sitemap
   - jekyll/scholar
   - jekyll-twitter-plugin
   - jekyll-seo-tag  #Sahil's favicon addition

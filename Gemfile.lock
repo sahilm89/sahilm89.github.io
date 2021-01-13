@@ -226,9 +226,9 @@ GEM
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
-    minitest (5.14.2)
+    minitest (5.14.3)
     multipart-post (2.1.1)
-    namae (1.0.1)
+    namae (1.0.2)
     nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
     octokit (4.20.0)
@@ -279,9 +279,11 @@ DEPENDENCIES
   jekyll-github-metadata
   jekyll-paginate-v2
   jekyll-scholar
+  jekyll-seo-tag
+  jekyll-sitemap
   jekyll-twitter-plugin
   jemoji
   unicode_utils
 
 BUNDLED WITH
-   2.2.4
+   2.2.5
