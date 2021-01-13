@@ -106,6 +106,7 @@ highlighter: rouge
 highlight_theme: github  # https://github.com/jwarby/jekyll-pygments-themes
 kramdown:
   input: GFM
+  hard_wrap: true # Sahil: To interpret line breaks literally
   syntax_highlighter_opts:
     css_class: 'highlight'
     span:

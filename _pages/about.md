@@ -2,7 +2,11 @@
 layout: about
 title: about
 permalink: /
-description: <a href="http://ebrains.eu">Human Brain Project</a>, <a href="http://kth.se">KTH, Stockholm</a>. sahil.moza@gmail.com.
+description: |
+    <a href="http://ebrains.eu">EBRAINS</a>, <a href="https://www.humanbrainproject.eu/">Human Brain Project</a><br>
+    <a href="https://www.scilifelab.se/">SciLife Lab</a>, <a href="http://kth.se">KTH Stockholm</a><br>
+    Solna, Sweden <br>
+    <a href="mailto:sahil.moza@gmail.com">sahil.moza AT gmail.com</a>
 
 profile:
   align: right
