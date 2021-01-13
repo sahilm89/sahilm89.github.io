@@ -253,11 +253,13 @@
       <d-article>
         <h2 id="equations">Equations</h2>
 
+
 <p>This theme supports rendering beautiful math in inline and display modes using <a href="https://www.mathjax.org/" target="\_blank">MathJax 3</a> engine.<br />
 You just need to surround your math expression with <code class="language-plaintext highlighter-rouge">$$</code>, like <code class="language-plaintext highlighter-rouge">$$ E = mc^2 $$</code>.<br />
 If you leave it inside a paragraph, it will produce an inline expression, just like \(E = mc^2\).</p>
 
 <p>To use display mode, again surround your expression with <code class="language-plaintext highlighter-rouge">$$</code> and place it as a separate paragraph.<br />
+
 Here is an example:</p>
 
 \[\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)\]
@@ -268,6 +270,7 @@ Here is an example:</p>
 
 <h2 id="citations">Citations</h2>
 
+
 <p>Citations are then used in the article body with the <code class="language-plaintext highlighter-rouge">&lt;d-cite&gt;</code> tag.<br />
 The key attribute is a reference to the id provided in the bibliography.<br />
 The key attribute can take multiple ids, separated by commas.</p>
@@ -276,21 +279,26 @@ The key attribute can take multiple ids, separated by commas.</p>
 If you have an appendix, a bibliography is automatically created and populated in it.</p>
 
 <p>Distill chose a numerical inline citation style to improve readability of citation dense articles and because many of the benefits of longer citations are obviated by displaying more information on hover.<br />
+
 However, we consider it good style to mention author last names if you discuss something at length and it fits into the flow well — the authors are human and it’s nice for them to have the community associate them with their work.</p>
 
 <hr />
 
 <h2 id="footnotes">Footnotes</h2>
 
+
 <p>Just wrap the text you would like to show up in a footnote in a <code class="language-plaintext highlighter-rouge">&lt;d-footnote&gt;</code> tag.<br />
+
 The number of the footnote will be automatically generated.<d-footnote>This will become a hoverable footnote.</d-footnote></p>
 
 <hr />
 
 <h2 id="code-blocks">Code Blocks</h2>
 
+
 <p>Syntax highlighting is provided within <code class="language-plaintext highlighter-rouge">&lt;d-code&gt;</code> tags.<br />
 An example of inline code snippets: <code class="language-plaintext highlighter-rouge">&lt;d-code language="html"&gt;let x = 10;&lt;/d-code&gt;</code>.<br />
+
 For larger blocks of code, add a <code class="language-plaintext highlighter-rouge">block</code> attribute:</p>
 
 <d-code block="" language="javascript">
@@ -304,7 +312,9 @@ For larger blocks of code, add a <code class="language-plaintext highlighter-rou
 
 <h2 id="layouts">Layouts</h2>
 
+
 <p>The main text column is referred to as the body.<br />
+
 It is the assumed layout of any direct descendants of the <code class="language-plaintext highlighter-rouge">d-article</code> element.</p>
 
 <div class="fake-img l-body">
@@ -317,7 +327,9 @@ It is the assumed layout of any direct descendants of the <code class="language-
   <p>.l-page</p>
 </div>
 
+
 <p>All of these have an outset variant if you want to poke out from the body text a little bit.<br />
+
 For instance:</p>
 
 <div class="fake-img l-body-outset">
@@ -328,8 +340,10 @@ For instance:</p>
   <p>.l-page-outset</p>
 </div>
 
+
 <p>Occasionally you’ll want to use the full browser width.<br />
 For this, use <code class="language-plaintext highlighter-rouge">.l-screen</code>.<br />
+
 You can also inset the element a little from the edge of the browser by using the inset variant.</p>
 
 <div class="fake-img l-screen">
@@ -339,7 +353,9 @@ You can also inset the element a little from the edge of the browser by using th
   <p>.l-screen-inset</p>
 </div>
 
+
 <p>The final layout is for marginalia, asides, and footnotes.<br />
+
 It does not interrupt the normal flow of <code class="language-plaintext highlighter-rouge">.l-body</code> sized text except on mobile screen sizes.</p>
 
 <div class="fake-img l-gutter">
