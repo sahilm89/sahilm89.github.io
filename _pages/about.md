@@ -3,10 +3,10 @@ layout: about
 title: about
 permalink: /
 description: |
-    <a href="http://crickmorelab.org"> Crickmore Lab</a>,<br>
-    <a href="http://kirbyneuro.org">F.M. Kirby Neurobiology Center</a>, 
+    <a href="http://crickmorelab.org"> Crickmore Lab</a><br>
+    <a href="http://kirbyneuro.org">F.M. Kirby Neurobiology Center</a><br> 
     <a href="https://www.childrenshospital.org/">Boston Children's Hospital</a><br>
-    <a href=https://hms.harvard.edu">Harvard Medical School</a><br>
+    <a href="https://hms.harvard.edu">Harvard Medical School</a><br>
     Boston, USA
     <a href="mailto:sahil.moza@gmail.com">sahil.moza AT gmail.com</a>
 
