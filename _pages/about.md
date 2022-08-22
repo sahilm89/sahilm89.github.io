@@ -15,7 +15,7 @@ profile:
   image: prof_pic.jpg
   address: 
     sahil.moza@childrens.harvard.edu
-    <a href="assets/pdf/SahilCV.pdf">Download my CV here</a>
+    <a href="assets/pdf/SahilCV.pdf">CV</a>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
