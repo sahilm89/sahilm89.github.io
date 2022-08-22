@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html>
-
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Sahil  Moza, PhD  | blank</title>
+<title>Sahil  Moza, PhD  | Excitatory-Inhibitory balance</title>
 <meta name="description" content="Personal website for Sahil Moza. This website is made using the [*folio](https://github.com/bogoli/-folio) design.
 ">
 
@@ -32,7 +31,7 @@
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
 <link rel="icon" type="image/png" href="/assets/img/favicon.png">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/EI_balance/">
 
 <!-- Theming-->
 
@@ -64,7 +63,68 @@
 <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 
 
+    <script src="/assets/js/distillpub/template.v2.js"></script>
+    <script src="/assets/js/distillpub/transforms.v2.js"></script>
+    
   </head>
+
+  <d-front-matter>
+    <script async type="text/json">{
+      "title": "Excitatory-Inhibitory balance",
+      "description": "How does precise excitation-inhibition balance control the activity landscape in the brain.",
+      "published": "2020-01-13 00:00:00 -0500",
+      "authors": [
+        
+        {
+          "author": "Sahil Moza",
+          "authorURL": "https://sahilmoza.com",
+          "affiliations": [
+            {
+              "name": "NCBS, Bengaluru",
+              "url": "https://ncbs.res.in"
+            }
+          ]
+        },
+        
+        {
+          "author": "Aanchal Bhatia",
+          "authorURL": "",
+          "affiliations": [
+            {
+              "name": "",
+              "url": ""
+            }
+          ]
+        },
+        
+        {
+          "author": "Upinder S Bhalla",
+          "authorURL": "https://en.wikipedia.org/wiki/Upinder_Singh_Bhalla",
+          "affiliations": [
+            {
+              "name": "",
+              "url": ""
+            }
+          ]
+        }
+        
+      ],
+      "katex": {
+        "delimiters": [
+          {
+            "left": "$",
+            "right": "$",
+            "display": false
+          },
+          {
+            "left": "$$",
+            "right": "$$",
+            "display": true
+          }
+        ]
+      }
+    }</script>
+  </d-front-matter>
 
   <body class="fixed-top-nav ">
 
@@ -98,8 +158,6 @@
           </li>
           
           <!-- Other pages -->
-          
-          
           
           
           
@@ -178,61 +236,56 @@
 
     <!-- Content -->
 
-    <div class="container mt-5">
-      <div class="post">
+    <div class="post distill">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2>a simple whitespace theme for academics</h2>
-  </div>
+      <d-title>
+        <h1>Excitatory-Inhibitory balance</h1>
+        <p>How does precise excitation-inhibition balance control the activity landscape in the brain.</p>
+      </d-title>
 
+      <d-byline></d-byline>
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/github-metadata/">a post with github metadata</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p>a quick run down on accessing github metadata.</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/twitter/">a post with twitter</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p>an example of a blog post with twitter</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2018/distill/">a distill-style blog post</a></h3>
-        <p class="post-meta">December 22, 2018</p>
-        <p>an example of a distill-style blog post and main elements</p>
-      </li>
-    
-  </ul>
+      <d-article>
+        <p>The brain employs synaptic excitation (E) and inhibition (I) to control the excitability landscape of neurons. I am interested in understanding how using specific motif connectivity, different kinds of computations can be implemented using E and I connections. To do this, first, we need to understand the degree and kind of EI balance in different kinds of networks. Several theoretical positions have been put in literature, including <em>detailed EI balance</em> (Vogels and Abbott, 2009) where all combinations of presynaptic inputs are EI balanced and <em>tight EI balance</em> where E and I are highly correlated and balanced at fast timescales (Boerlin, Machens and Deneve, 2013). Using the mouse hippocampus as a model system, we projected random patterns of light to optogenetically activate CA3 neurons using a projector <d-cite key="bhatiapatterned"></d-cite>. We showed that <em>precise EI balance</em> (both detailed and tight) indeed exists in the brain <d-cite key="bhatia2019precise"></d-cite>.</p>
 
-  
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li>
-    
-      
-        <li class="page-item active"><a class="page-link" href="/blog/index.html" title="blank">1</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="blank - page 2">2</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/3/index.html" title="blank - page 3">3</a></li>
-      
-    
-    <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
-
-
-
+<div class="row">
+    <div class="col-sm mt-5 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/feedforwardNN.svg" alt="" title="example image" />
+    </div>
+    <div class="col-sm mt-4 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/2_precise_small.svg" alt="" title="example image" />
+    </div>
 </div>
+<div class="caption">
+    Precise EI balance in the feedforward hippocampal EI network. (Left) Schematic of the feedforward hippocampal EI network. (Right) Hippocampal CA1 neurons are also balanced for very small inputs from CA3.
+</div>
+
+<p>Further, in the feedforward inhibitory network connectivity of the hippocampus, EI balanced inputs naturally arrive with a delay that varies with input size. Using model and experiments, we showed that this results in a novel computation called Subthreshold Divisive Normalization (SDN). As its name suggests, SDN is a subthreshold gain-control computation that divisively controls neuronal output. SDN also has the interesting property that it controls the fraction of information in spike-time vs spike counts.</p>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/EI_balance.svg" alt="" title="Precise EI balance" />
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/model.svg" alt="" title="ei balance sdn model" />
+    </div>
+
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/SDN.svg" alt="" title="Subthreshold Divisive Normalization" />
+    </div>
+</div>
+<div class="caption">
+    (Left) Random inputs from CA3 to CA1 are EI balanced at fast timescales with the same E/I ratio. (Middle) Model predicting Subthreshold Divisive Normalization resulting from a dynamically changing delay and precise EI balance. (Right) Experimental data from CA1 neurons showing Subthreshold divisive normalization (SDN), which controls spike-times and divisively controls the number of inputs required to reach threshold.
+</div>
+
+<p>We are currently looking at how these phenomena play a role in inhibitory gating, the formation of place cells and neural sequences in the hippocampus.</p>
+
+      </d-article>
+
+      <d-appendix>
+        <d-footnote-list></d-footnote-list>
+        <d-citation-list></d-citation-list>
+      </d-appendix>
 
     </div>
 
@@ -252,29 +305,7 @@
 
   </body>
 
-  <!-- jQuery -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-
-  <!-- Bootsrap & MDB scripts -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script>
-
-  
-<!-- Mansory & imagesLoaded -->
-<script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
-<script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-<script defer src="/assets/js/mansory.js" type="text/javascript"></script>
-
-
-  
-
-
-<!-- Load Common JS -->
-<script src="/assets/js/common.js"></script>
-
-<!-- Load DarkMode JS -->
-<script src="/assets/js/dark_mode.js"></script>
-
+  <d-bibliography src="/assets/bibliography/papers.bib">
+  </d-bibliography>
 
 </html>
