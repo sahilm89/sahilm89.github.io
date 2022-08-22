@@ -13,9 +13,9 @@ description: |
 profile:
   align: right
   image: prof_pic.jpg
-  address: >
-    <p>sahil.moza@childrens.harvard.edu</p>
-    <p><a href="assets/pdf/SahilCV.pdf">Download my CV here</a></p>
+  address: 
+    sahil.moza@childrens.harvard.edu
+    <a href="assets/pdf/SahilCV.pdf">Download my CV here</a>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
