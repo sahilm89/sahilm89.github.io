@@ -1,6 +1,0 @@
-tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/core"
-brew "pkg-config"
-brew "pyenv"
-cask "multipass"
