@@ -19,7 +19,7 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
-I am a neuroscientist, currently working at the <a href="https://zhanglab.oeb.harvard.edu"> Zhang Lab </a> at Harvard University, Cambridge. Electrical and biochemical circuits work together in the brain to generate behavior. I am interested in understanding how these different computational circuit substrates work together.
+I am a neuroscientist, currently working at the <a href="https://zhanglab.oeb.harvard.edu"> Zhang Lab </a> at Harvard University, Cambridge. Electrical and biochemical circuits work together in the brain to generate behavior. I am interested in understanding how information is represented and exchanged between these different substrates and hierarchical levels.
  
 During my PhD at the [National Centre for Biological Sciences (NCBS), Bengaluru](http://ncbs.res.in), I worked on subthreshold neural computation and timing at the scale of individual neurons and biochemical networks. 
 
