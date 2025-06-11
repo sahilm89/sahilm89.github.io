@@ -3,7 +3,7 @@ layout: distill_projects
 title: Chemical bistables 
 description: How do biological systems make robust decisions and create long-lasting memory? 
 img: /assets/img/website_bistable.svg
-date: 13-01-2020
+date: 2020-01-13
 
 authors:
   - name: Sahil Moza

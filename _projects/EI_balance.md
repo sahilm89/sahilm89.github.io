@@ -3,7 +3,7 @@ layout: distill
 title: Excitatory-Inhibitory balance 
 description: How does precise excitation-inhibition balance control the activity landscape in the brain.
 img: /assets/img/EI_balance.svg
-date: 13-01-2020
+date: 2020-01-13
 authors:
   - name: Sahil Moza
     url: https://sahilmoza.com
