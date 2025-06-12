@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: publications
 description: 
-years: [2021, 2020, 2019]
+years: [2023,2021, 2020, 2019]
 nav: true
 ---
 
@@ -21,5 +21,5 @@ nav: true
 <div class="thesis">
 
 <h2>PhD Thesis</h2>
-Robust memory and precise balance: Computations using biological network motifs.
+<a href="https://sahilmoza.com/assets/pdf/thesis.pdf"> Robust memory and precise balance: Computations using biological network motifs. </a>, 2020
 </div>

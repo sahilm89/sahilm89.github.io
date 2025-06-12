@@ -1,5 +1,5 @@
 ---
-layout: distill_projects
+layout: distill
 title: Chemical bistables 
 description: How do biological systems make robust decisions and create long-lasting memory? 
 img: /assets/img/website_bistable.svg
@@ -15,7 +15,7 @@ authors:
     url: https://en.wikipedia.org/wiki/Upinder_Singh_Bhalla
 
 bibliography: papers.bib
-importance: 1
+importance: 3
 ---
 
 Bistable dynamical systems sustain themselves in one of two stable states. This makes these systems great for decision-making computations and for storing memory. Some examples of bistable systems are: a light switch, a flipped coin, and a flip-flop (the basic element in computer memory). Just like flip-flops store _state_ information of the previous inputs, chemical bistables store their _state_ in concentrations of molecules. Cell-cycle (Mitosis) phase transition cues (Cdk1-PP2A), morphogens (Shh), and putative synaptic memory machinery (CaMKII): all contain known bistable chemical reaction networks.

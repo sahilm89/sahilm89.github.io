@@ -5,3 +5,4 @@ _site/
 .ruby-version
 _additional_probs
 _oldsite
+.DS_Store
