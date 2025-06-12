@@ -4,7 +4,7 @@ title: about
 permalink: /
 description: |
     Postdoctoral Fellow, <a href="https://zhanglab.oeb.harvard.edu"> Zhang Lab</a><br>
-    <a href="https://fas.harvard.edu">Harvard University</a><br>
+    <a href="https://www.fas.harvard.edu/">Harvard University</a><br>
     Boston, USA<br>
     <a href="mailto:sahil.moza@gmail.com">sahil.moza AT gmail.com</a>
 
