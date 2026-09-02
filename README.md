@@ -27,6 +27,12 @@ that was live at tag `v1-alfolio-live` and on the untouched `gh_pages` branch. T
 set Settings → Pages → Source to "Deploy from a branch", branch `gh_pages`, folder `/`.
 To restore the source: `git checkout v1-alfolio-source`.
 
+## Ruby versions
+
+The Actions build uses Ruby 3.2. Ruby 3.3 and later stop shipping `racc`, which jekyll-scholar's
+bibtex parser needs; to move the workflow to a newer Ruby, add `gem "racc"` to the Gemfile and run
+`bundle install` on a machine with a modern Ruby so the lockfile picks it up.
+
 ## Edit content
 
 | What                | Where                                   |
