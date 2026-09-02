@@ -1,0 +1,5 @@
+<ul class="cv-list">
+{% for e in include.items %}
+  <li><div class="what">{{ e.what }}{% if e.where %}<span class="where">{{ e.where }}</span>{% endif %}{% if e.detail %}<span class="detail">{{ e.detail }}</span>{% endif %}</div><div class="when">{{ e.when }}</div></li>
+{% endfor %}
+</ul>

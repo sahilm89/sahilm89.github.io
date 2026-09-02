@@ -1,0 +1,13 @@
+<ul class="tools">
+{% for t in include.items %}
+  <li class="tool">
+    <div class="tool__logo">{% if t.image %}<img src="{{ t.image | relative_url }}" alt="{{ t.name }} logo" loading="lazy">{% else %}<span class="tool__logo--text">{{ t.logo_text | default: t.name }}</span>{% endif %}</div>
+    <div>
+      <h3>{{ t.name }}</h3>
+      <p class="tool__meta">{{ t.meta }}</p>
+      <p>{{ t.blurb | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+      <div class="pub__links">{% for l in t.links %}<a class="chip" href="{{ l.url | relative_url }}">{{ l.label }}</a>{% endfor %}</div>
+    </div>
+  </li>
+{% endfor %}
+</ul>

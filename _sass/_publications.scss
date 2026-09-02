@@ -1,0 +1,31 @@
+.bibliography { list-style: none; margin: 0; padding: 0; }
+.bibliography > li { padding: 1.1rem 0; border-bottom: 1px solid var(--line); }
+.bibliography > li:last-child { border-bottom: 0; }
+.pub { display: grid; grid-template-columns: 7.5rem minmax(0, 1fr); gap: .25rem 1.25rem; align-items: start; }
+.pub__badge { padding-top: .2rem; }
+.badge {
+  display: inline-block; font-size: .72rem; font-weight: 600; letter-spacing: .04em; padding: .2rem .6rem; border-radius: 999px;
+  border: 1px solid var(--line-strong); color: var(--text-2); background: var(--bg-elev); white-space: nowrap;
+}
+.badge--preprint { border-style: dashed; }
+.pub__title { font-family: var(--font-sans); font-size: 1.05rem; font-weight: 600; margin: 0 0 .25rem; line-height: 1.4; }
+.pub__title a { color: var(--text); text-decoration: none; }
+.pub__title a:hover { color: var(--accent-ink); text-decoration: underline; }
+.pub__authors { margin: 0 0 .15rem; font-size: .95rem; color: var(--text-2); }
+.pub__authors .self { color: var(--text); font-weight: 600; }
+.pub__venue { margin: 0 0 .55rem; font-size: .92rem; color: var(--muted); }
+.pub__venue em { color: var(--text-2); }
+.pub__award { display: flex; align-items: center; gap: .4rem; font-size: .85rem; color: var(--text-2); margin: -.2rem 0 .55rem; }
+.pub__award svg { width: .95rem; height: .95rem; color: var(--accent); }
+.pub__links { display: flex; flex-wrap: wrap; gap: .4rem; }
+.chip { font-size: .78rem; font-weight: 500; padding: .2rem .65rem; border: 1px solid var(--line); border-radius: 999px; color: var(--text-2); text-decoration: none; background: var(--bg-elev); }
+.chip:hover { border-color: var(--accent); color: var(--accent-ink); }
+.pub__abstract { margin-top: .65rem; font-size: .92rem; color: var(--text-2); }
+.pub__abstract summary { cursor: pointer; color: var(--accent); font-weight: 500; font-size: .85rem; list-style: none; }
+.pub__abstract summary::-webkit-details-marker { display: none; }
+.pub__abstract[open] summary { margin-bottom: .4rem; }
+.pub__abstract p { margin: 0; max-width: var(--measure); }
+.eqnote { font-size: .85rem; color: var(--muted); margin: .9rem 0 0; }
+@media (max-width: 599px) {
+  .pub { grid-template-columns: 1fr; gap: .35rem; }
+}

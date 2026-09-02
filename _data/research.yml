@@ -1,0 +1,26 @@
+- title: Whole-brain dynamics of learning
+  period: 2022–present · Zhang Lab, Harvard
+  blurb: >-
+    With brain-wide imaging of *C. elegans* before and after aversive learning, we ask how an entire nervous
+    system reorganizes. I lead the computational analysis and modeling. Preprint out; full write-up coming soon.
+  image: /assets/img/research/wholebrain/card.png
+  alt: Inferred fixed points of brain-wide dynamics moving toward the no-food state after training
+  url: /research/whole-brain-learning/
+
+- title: "CeDNe: a graph model of the *C. elegans* nervous system"
+  period: 2024–present · open source
+  blurb: >-
+    Connectome-embedded Dynamical Networks. Eighteen datasets, from the 1986 wiring diagram to single-cell
+    transcriptomes, neuropeptide maps and whole-brain imaging, in one graph you can query, simulate and fit.
+  image: /assets/img/cedne-logo.svg
+  alt: CeDNe logo, a ring of neurons forming the letter C
+  url: /research/cedne/
+
+- title: Circuit and molecular substrates of memory
+  period: 2012–2020 · Bhalla Lab, NCBS
+  blurb: >-
+    Precise excitation–inhibition balance in the hippocampus implements subthreshold gain control, and an
+    exhaustive survey of small bistable chemical networks maps which motifs store a bit of memory robustly.
+  image: /assets/img/EI_balance.svg
+  alt: Excitatory and inhibitory synaptic responses to patterned inputs
+  url: /research/memory-substrates/

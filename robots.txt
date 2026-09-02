@@ -1,1 +1,3 @@
-Sitemap: https://sahilmoza.com/sitemap.xml
+User-agent: *
+Allow: /
+Sitemap: https://www.sahilmoza.com/sitemap.xml

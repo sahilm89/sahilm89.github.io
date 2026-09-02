@@ -1,0 +1,24 @@
+- date: 2026-09-02
+  text: "Poster at the Kempner Institute 2026 conference, Harvard: how a whole brain reconfigures with learning."
+- date: 2025-11-15
+  text: "Poster at Neuroscience 2025, Society for Neuroscience, San Diego."
+- date: 2025-11-04
+  text: "Preprint: [CeDNe](https://doi.org/10.1101/2025.11.03.683805), a multi-scale computational framework for structure–function modeling of the *C. elegans* nervous system. Code on [GitHub](https://github.com/sahilm89/CeDNe)."
+- date: 2025-11-04
+  text: "Preprint with the Lu and Zhang labs: [network modularity reveals context- and state-dependent reorganization of functional connectivity](https://doi.org/10.1101/2025.11.02.686048) in single-cell resolved recordings."
+- date: 2025-11-01
+  text: "Preprint: [aversive learning induces context-gated, brain-wide reorganization of neural dynamics](https://doi.org/10.1101/2025.10.31.685731) in *C. elegans*."
+- date: 2025-06-01
+  text: "Poster on CeDNe at *Analysis and Modeling of Connectomes*, Janelia Research Campus. CeDNe is now open source."
+- date: 2024-06-01
+  text: "Poster at CeNeuro 2024, Madison, Wisconsin."
+- date: 2024-03-01
+  text: "Poster at the *Neuronal Circuits* meeting, Cold Spring Harbor Laboratory."
+- date: 2023-11-01
+  text: "Research highlight in *eNeuro*: [Action at a distance: theoretical mechanisms of cross-dendritic heterosynaptic modification](https://doi.org/10.1523/ENEURO.0419-23.2023)."
+- date: 2023-05-01
+  text: "Talk at the Harvard Museum of Comparative Zoology seminar series."
+- date: 2022-09-01
+  text: "Joined the [Zhang Lab](https://zhanglab.oeb.harvard.edu) in Harvard's Department of Organismic and Evolutionary Biology as a postdoctoral fellow."
+- date: 2021-01-01
+  text: "[SWITCHES](https://doi.org/10.1093/bioinformatics/btab006), a searchable database of bistable chemical reaction network topologies, is published in *Bioinformatics*."

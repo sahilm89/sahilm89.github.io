@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<section class="hero wrap">
+  <div class="hero__text">
+    <p class="eyebrow">{{ site.tagline }}</p>
+    <h1>{{ site.title }}</h1>
+    {% if site.variant == "b" %}<p class="hero__thesis">{{ site.thesis }}</p>{% endif %}
+    <p class="hero__role">{{ site.profile.role }}, <a href="{{ site.profile.lab_url }}">{{ site.profile.lab }}</a><br>
+      {{ site.profile.department }}, <a href="{{ site.profile.institution_url }}">{{ site.profile.institution }}</a></p>
+    <div class="hero__lede">{{ content }}</div>
+    <div class="hero__actions">
+      <a class="btn btn--primary" href="{{ site.profile.cv | relative_url }}">Curriculum vitae <span class="btn__meta">PDF</span></a>
+      <a class="btn" href="{{ '/publications/' | relative_url }}">Publications</a>
+      <a class="btn" href="mailto:{{ site.profile.email }}">{% include icons.html id="mail" %} Email</a>
+    </div>
+    {% if site.profile.job_market != "" %}<p class="hero__note">{{ site.profile.job_market }}</p>{% endif %}
+  </div>
+  <figure class="hero__portrait">
+    {% if site.variant == "b" %}<div class="hero__motif" aria-hidden="true">{% include motif.svg %}</div>{% endif %}
+    <img src="{{ '/assets/img/portrait.jpg' | relative_url }}" alt="Portrait of Sahil Moza" width="900" height="900">
+  </figure>
+</section>
+
+<section class="wrap section" id="research">
+  <div class="section__head"><h2>{% if site.variant == "b" %}<span class="section__num">01</span>{% endif %}Research</h2><a class="more" href="{{ '/research/' | relative_url }}">All research</a></div>
+  {% include research-cards.html %}
+</section>
+
+<section class="wrap section" id="publications">
+  <div class="section__head"><h2>{% if site.variant == "b" %}<span class="section__num">02</span>{% endif %}Selected publications</h2><a class="more" href="{{ '/publications/' | relative_url }}">All publications</a></div>
+  {% bibliography -q @*[selected=true]* %}
+  <p class="eqnote"><sup>*</sup> equal contribution</p>
+</section>
+
+<section class="wrap section" id="news">
+  <div class="section__head"><h2>{% if site.variant == "b" %}<span class="section__num">03</span>{% endif %}News</h2></div>
+  {% include news.html limit=6 %}
+</section>

@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+# Build the site for the preview subpath and push it to the sahilm89/site-preview repo,
+# which GitHub Pages serves at https://sahilm89.github.io/site-preview/.
+#
+# One-time setup (once, by hand):
+#   gh repo create sahilm89/site-preview --public --description "Preview builds of sahilmoza.com"
+#   gh api -X POST repos/sahilm89/site-preview/pages -f 'source[branch]=main' -f 'source[path]=/'
+set -euo pipefail
+cd "$(dirname "$0")/.."
+SRC="$PWD"
+export LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 JEKYLL_ENV=production
+
+OUT="$(mktemp -d)"
+bundle exec jekyll build --config _config.yml,_config_preview.yml -d "$OUT"
+rm -f "$OUT/CNAME"          # never let the preview claim the live domain
+touch "$OUT/.nojekyll"      # serve the built files as-is
+
+cd "$OUT"
+git init -q -b main
+git add -A
+git -c user.name="$(git -C "$SRC" config user.name)" \
+    -c user.email="$(git -C "$SRC" config user.email)" \
+    commit -q -m "Preview build $(date -u +%Y-%m-%dT%H:%MZ) from $(git -C "$SRC" rev-parse --short HEAD)"
+git -c credential.helper='!gh auth git-credential' push -q --force https://github.com/sahilm89/site-preview.git main
+echo "Pushed. Preview: https://sahilm89.github.io/site-preview/"
+rm -rf "$OUT"

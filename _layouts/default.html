@@ -1,32 +1,15 @@
-<!DOCTYPE html>
-<html>
-
-  <head>
-    {% include head.html %}
-    {% include scripts/mathjax.html %}
-  </head>
-
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
-
-    <!-- Header -->
-
-    {% include header.html %}
-
-    <!-- Content -->
-
-    <div class="container mt-5">
-      {{ content }}
-    </div>
-
-    <!-- Footer -->
-
-    {% include footer.html %}
-
-  </body>
-
-  {% include scripts/jquery.html %}
-  {% include scripts/bootstrap.html %}
-  {% include scripts/mansory.html %}
-  {% include scripts/misc.html %}
-
+<!doctype html>
+<html lang="{{ site.lang }}">
+<head>
+{% include head.html %}
+</head>
+<body class="variant-{{ site.variant | default: 'a' }}">
+  <a class="skip" href="#main">Skip to content</a>
+  {% include nav.html %}
+  <main id="main">
+{{ content }}
+  </main>
+  {% include footer.html %}
+  <script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
+</body>
 </html>

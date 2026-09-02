@@ -1,25 +1,30 @@
 ---
-layout: page
+layout: wide
+title: Publications
 permalink: /publications/
-title: publications
-description: 
-years: [2023,2021, 2020, 2019]
-nav: true
+description: >-
+  Peer-reviewed articles, preprints, a book chapter and commentary. Asterisks mark equal contribution.
+  Also on <a href="https://scholar.google.com/citations?user=hzfvStkAAAAJ">Google Scholar</a> and
+  <a href="https://orcid.org/0000-0002-2225-8841">ORCID</a>.
 ---
-
-<div class="publications">
-
-{% for y in page.years %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f papers -q @*[year={{y}}]* %}
-{% endfor %}
-
-</div>
-
-
----
-<div class="thesis">
-
-<h2>PhD Thesis</h2>
-<a href="https://sahilmoza.com/assets/pdf/thesis.pdf"> Robust memory and precise balance: Computations using biological network motifs. </a>, 2020
-</div>
+<section class="pubs-group">
+  <h2>Preprints and manuscripts under revision</h2>
+  {% bibliography -q @*[kind=preprint]* %}
+</section>
+<section class="pubs-group">
+  <h2>Peer-reviewed articles</h2>
+  {% bibliography -q @*[kind=article]* %}
+</section>
+<section class="pubs-group">
+  <h2>Book chapter</h2>
+  {% bibliography -q @*[kind=chapter]* %}
+</section>
+<section class="pubs-group">
+  <h2>Commentary</h2>
+  {% bibliography -q @*[kind=commentary]* %}
+</section>
+<section class="pubs-group">
+  <h2>Thesis</h2>
+  {% bibliography -q @*[kind=thesis]* %}
+</section>
+<p class="eqnote"><sup>*</sup> equal contribution</p>

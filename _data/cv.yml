@@ -1,0 +1,121 @@
+program:
+  - Brain-wide mechanisms of learning and behavioral flexibility in *C. elegans*.
+  - Computational frameworks linking connectome structure to neural dynamics and behavior.
+  - Research software for multimodal neural data integration, simulation and optimization.
+positions:
+  - what: Postdoctoral Fellow
+    where: Department of Organismic and Evolutionary Biology, Harvard University, Cambridge
+    detail: Mentor Yun Zhang
+    when: Sep 2022–present
+  - what: Postdoctoral Researcher
+    where: Boston Children's Hospital and Harvard Medical School, Boston
+    when: Jul 2021–Sep 2022
+  - what: Scientist, EBRAINS, Human Brain Project
+    where: KTH Royal Institute of Technology, Stockholm
+    when: Oct 2020–Jul 2021
+education:
+  - what: PhD, Neuroscience and Systems Biology
+    where: National Centre for Biological Sciences, TIFR, Bangalore
+    detail: Advisor Upinder S. Bhalla · Thesis, Robust memory and precise balance, computation with biological network motifs
+    when: 2020
+  - what: ME, Computational and Systems Biology
+    where: Jawaharlal Nehru University, New Delhi
+    when: 2012
+  - what: BE, Biotechnology
+    where: Panjab University, Chandigarh
+    when: 2010
+software:
+  - what: CeDNe
+    where: Graph-based framework for multimodal connectome modeling, simulation and optimization
+    when: 2025
+  - what: NeuroRD-SBML
+    where: Biophysical model translation and standardization
+    when: 2022
+  - what: LHSMDU
+    where: Latin Hypercube Sampling with Multi-Dimensional Uniformity, parameter sampling library
+    when: 2020
+talks:
+  - what: "Kempner Institute 2026 Conference"
+    where: "Harvard University, Cambridge"
+    when: "Sep 2026"
+  - what: "Neuroscience 2025, Society for Neuroscience"
+    where: "San Diego"
+    when: "Nov 2025"
+  - what: "Analysis and Modeling of Connectomes"
+    where: "Janelia Research Campus"
+    when: "Jun 2025"
+  - what: "CeNeuro 2024"
+    where: "Madison, Wisconsin"
+    when: "Jun 2024"
+  - what: "Neuronal Circuits"
+    where: "Cold Spring Harbor Laboratory"
+    when: "Mar 2024"
+  - what: "Harvard Museum of Comparative Zoology seminar series"
+    where: "Cambridge"
+    when: "May 2023"
+  - what: "NeuroMatch Conference"
+    where: "online"
+    when: "Mar 2020"
+  - what: "No Garlands Neuroscience"
+    where: "IISER Pune"
+    when: "Jan 2020"
+  - what: "Transylvanian Experimental Neuroscience Summer School"
+    where: "Romania"
+    when: "Jun 2019"
+  - what: "Molecules and Memory"
+    where: "NCBS, Bengaluru"
+    when: "Mar 2019"
+  - what: "Quantitative Approaches to Behaviour and Neural Systems"
+    where: "Lisbon"
+    when: "Oct 2018"
+  - what: "Spikes lecture series, Centre for Neuroscience"
+    where: "IISc Bengaluru"
+    when: "Jan 2018"
+  - what: "Neuroscience 2017, Society for Neuroscience"
+    where: "Washington, DC"
+    when: "Nov 2017"
+  - what: "No Garlands Neuroscience"
+    where: "IISER Pune"
+    when: "Oct 2017"
+  - what: "BSSE Symposium"
+    where: "IISc Bengaluru"
+    when: "Jan 2017"
+  - what: "Molecular Mechanisms at the Synapse"
+    where: "Janelia Research Campus"
+    when: "May 2016"
+service:
+  - what: Reviewer
+    where: eNeuro (2023–), Journal of Computational Neuroscience (2025–), Journal of Biosciences (2022–)
+  - what: Co-reviewer
+    where: Neuron, Nature Neuroscience, eLife and Cell, with senior collaborators
+fellowships:
+  - what: "Senior Research Fellowship, Biology"
+    where: "Council of Scientific and Industrial Research (CSIR)"
+    when: "2014–2017"
+  - what: "Junior Research Fellowship, Biology, All India Rank 36"
+    where: "Council of Scientific and Industrial Research (CSIR)"
+    when: "2012–2014"
+  - what: "DBT Bioinformatics National Certification, All India Rank 33"
+    where: "Department of Biotechnology, Government of India"
+    when: "2011"
+  - what: "Master's Fellowship"
+    where: "Jawaharlal Nehru University"
+    when: "2010–2012"
+travel:
+  - what: "IBRO-PERC, The Brain Prize and FENS stipend"
+    when: "May 2019"
+  - what: "Wellcome Trust Travel Award"
+    when: "Sep 2018"
+  - what: "Infosys Travel Award, Infosys Foundation"
+    when: "Dec 2017"
+  - what: "Department of Biotechnology Travel Award, Government of India"
+    when: "Nov 2017"
+skills:
+  - title: Modeling
+    text: Large-scale simulation, dynamical systems, information theory, control-based system identification, chemical reaction network modeling, stochastic simulation (Langevin, Gillespie), optimization.
+  - title: Analysis
+    text: High-dimensional volumetric (4D) neural data, neural population geometry and manifold analysis, neural time-series modeling, connectome topology, tensor decomposition (SVD, CP, Tucker), graph-based learning, unsupervised learning and clustering.
+  - title: Tools
+    text: Python, PyTorch, JAX, scikit-learn, Optuna, NetworkX, NumPy, pandas, MOOSE, COPASI, Brian. UNIX, multiprocessing, SLURM and SGE clusters.
+  - title: Experimental
+    text: "*C. elegans* and *Drosophila melanogaster*: genetics, optogenetics, calcium imaging, behavior."

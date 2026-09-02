@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<header class="page-head wrap research-head">
+  <p class="eyebrow"><a href="{{ '/research/' | relative_url }}">Research</a></p>
+  <h1>{{ page.title }}</h1>
+  {% if page.description %}<p class="lede">{{ page.description }}</p>{% endif %}
+  <dl class="meta">
+    {% if page.period %}<div><dt>When</dt><dd>{{ page.period }}</dd></div>{% endif %}
+    {% if page.lab %}<div><dt>Where</dt><dd>{{ page.lab }}</dd></div>{% endif %}
+    {% if page.people %}<div><dt>With</dt><dd>{{ page.people }}</dd></div>{% endif %}
+  </dl>
+  {% if page.links %}<div class="pub__links">{% for l in page.links %}<a class="chip" href="{{ l.url | relative_url }}">{{ l.label }}</a>{% endfor %}</div>{% endif %}
+</header>
+<article class="wrap prose research-body">
+{{ content }}
+</article>
+{% if page.papers %}
+<section class="wrap section research-papers">
+  <div class="section__head"><h2>Papers from this work</h2></div>
+  {% bibliography -q @*[project={{ page.papers }}]* %}
+</section>
+{% endif %}

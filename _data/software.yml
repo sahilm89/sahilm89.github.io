@@ -1,0 +1,43 @@
+- name: CeDNe
+  meta: Python · MIT · 2024–present · lead developer
+  image: /assets/img/cedne-logo.svg
+  blurb: >-
+    Connectome-embedded Dynamical Networks. A graph-based framework that integrates the *C. elegans* connectome,
+    neuron identities, transcriptomes, neuropeptide maps and calcium imaging into one model, with tools for
+    motif and pathway analysis and for fitting and simulating neural dynamics on the wiring diagram.
+  links:
+    - { label: GitHub, url: "https://github.com/sahilm89/CeDNe" }
+    - { label: Docs, url: "https://docs.cedne.org" }
+    - { label: Web app, url: "https://beta.cedne.org" }
+    - { label: Preprint, url: "https://doi.org/10.1101/2025.11.03.683805" }
+    - { label: Research page, url: /research/cedne/ }
+
+- name: SWITCHES
+  meta: Web resource · 2021 · with G. V. HarshaRani, N. Ramakrishnan and U. S. Bhalla
+  image: /assets/img/website_bistable.svg
+  blurb: >-
+    Searchable Web Interface for Topologies of CHEmical Switches. A database of bistable chemical reaction
+    network topologies and the parameter regimes in which they switch, from an exhaustive enumeration of small networks.
+  links:
+    - { label: Website, url: "https://switches.ncbs.res.in" }
+    - { label: Paper, url: "https://doi.org/10.1093/bioinformatics/btab006" }
+
+- name: LHSMDU
+  meta: Python · 2020 · on PyPI
+  image: /assets/img/lhsmdu.svg
+  blurb: >-
+    Latin Hypercube Sampling with Multi-Dimensional Uniformity. A small library for sampling high-dimensional
+    parameter spaces evenly, written for large model-exploration runs and used across the chemical-switch work.
+  links:
+    - { label: GitHub, url: "https://github.com/sahilm89/lhsmdu" }
+    - { label: PyPI, url: "https://pypi.org/project/lhsmdu/" }
+    - { label: Zenodo, url: "https://doi.org/10.5281/zenodo.3929531" }
+
+- name: NeuroRD-SBML
+  meta: Python · 2022
+  logo_text: RD → SBML
+  blurb: >-
+    Translates NeuroRD reaction–diffusion models into SBML with units, so biophysical signaling models can be
+    shared, validated and reused across simulators.
+  links:
+    - { label: GitHub, url: "https://github.com/sahilm89/neurord-sbml" }

@@ -1,92 +1,137 @@
+% Custom fields used by _layouts/bib.html:
+%   abbr      venue badge text          selected  true → shown on the home page
+%   preprint  true → dashed badge       equal     N → first N authors marked as equal contributors
+%   pdf/code/website  extra link chips  award/note  short text lines under the venue
+
+@article{liang2025aversive,
+  project  = {whole-brain},
+  kind     = {preprint},
+  abstract = {Learning generates experience-dependent changes to the brain. However, how neurons of diverse functions and connectivity reorganize and modulate their activities to generate coherent changes while preserving essential functions is not well understood. Here, we address this question using an aversive olfactory learning paradigm whereby Caenorhabditis elegans learns to reduce its olfactory preference for pathogenic bacteria. Using functional imaging during olfactory stimulation in naive and trained animals, we show that, at brain-wide scale, cell type-by-cell type, learning induces context-gated reconfiguration of the organization of neural activity throughout the brain to alter neural responses only during bacteria-discrimination task, while leaving intact bacteria-sensing functions. We found that the context-gated encoding of learning is globally distributed across layers of the nervous system, composed of neurons carrying information of context or learning experience. In particular, aversive training modulates multiple functional connections within the nervous system, including those between sensory neurons and interneurons, as well as those among interneurons, in a context-gated manner. At the systems level, training modulates correlated activity of neural populations; we found that low-dimensional temporal patterns of population activity correlate well with locomotory gaits that express olfactory preferences. Upon training, the rotation and contraction of the low-dimensional neural manifolds shifts the brain into predisposed states for the context-gated display of learned behavior. Because animals encounter unpredictable environments in life, efficient learning about relevant cues while maintaining other functions is essential for survival. Our findings uncover network-level mechanisms that help explain how the brain reorganizes its activity patterns to both encode new experience and preserve essential functions.},
+  title    = {Aversive learning induces context-gated global reorganization of neural dynamics in <em>Caenorhabditis elegans</em>},
+  author   = {Liang, Jingting and Moon, Sihoon and Moza, Sahil and Lee, Hyun Jee and Eleftheriadis, Panagiotis E. and Chen, Juan and Ge, Minghai and Chen, Maoting and Lu, Hang and Zhang, Yun},
+  journal  = {bioRxiv},
+  year     = {2025},
+  month    = {11},
+  doi      = {10.1101/2025.10.31.685731},
+  abbr     = {bioRxiv},
+  preprint = {true},
+  selected = {true},
+  equal    = {4},
+  note     = {Under revision}
+}
+
+@article{moza2025cedne,
+  project  = {cedne},
+  kind     = {preprint},
+  abstract = {Understanding how neural circuits generate behavior requires integrating structural and functional data across scales. C. elegans with its complete connectome, genetically identifiable neurons, single-cell transcriptome, neuropeptide-receptor distribution, and an amenability to simultaneous measurement of brain-wide neural activity and behavior presents a unique opportunity for such a multiscale circuit analysis. However, the absence of a unifying framework to connect these diverse datasets limits our ability to connect network structure and attributes with function. Here we introduce CeDNe (C. elegans Dynamical Network), an open-source computational framework that integrates anatomical, molecular, and imaging datasets into a unified graph-based representation that enables multimodal data analysis by cross-referencing different omics layers in a single computational environment. Specifically, CeDNe provides modular tools for visualizing and analyzing network connectivity, motif distribution, and circuit paths. Further, it incorporates a computational framework that simulates neural dynamics and optimizes network models to bridge structural connectivity with neural activity. Thus, CeDNe establishes a scalable foundation for data-driven modeling of the nervous system. This open-source tool not only facilitates computational connectomics and multimodal analyses in C. elegans but also serves as a generalizable framework for investigating structure-function relationships in neural networks of other organisms.},
+  title    = {CeDNe: a multi-scale computational framework for modeling structure-function relationships in the <em>C. elegans</em> nervous system},
+  author   = {Moza, Sahil and Zhang, Yun},
+  journal  = {bioRxiv},
+  year     = {2025},
+  month    = {11},
+  doi      = {10.1101/2025.11.03.683805},
+  abbr     = {bioRxiv},
+  preprint = {true},
+  selected = {true},
+  code     = {https://github.com/sahilm89/CeDNe},
+  website  = {https://cedne.org}
+}
+
+@article{moon2025modularity,
+  project  = {whole-brain},
+  kind     = {preprint},
+  abstract = {An important goal of neuroscience is to understand how biological neural networks organize activity at multiple scales to enable complex information processing and behavioral output. To address this challenge, large-scale neural activity datasets with increased resolution and wider coverage have become more prevalent across many model systems. However, bridging the gap in scale between changes in pairwise functional connectivity between neurons and changes in brain-wide organization of activity remains a key challenge. In this work, we demonstrate application of modularity-based community detection and network modularity to single-cell resolved recordings, for the first time, as a method to summarize complex changes in time-varying functional connectivity, facilitating comparisons across multiple time windows, recordings, and conditions. We apply these methods to both single-cell resolved multi-cell and whole-brain activity recordings. In the multi-cell recordings, we find that food odor changes functional connectivity between existing network modules in a C. elegans locomotory interneuron network, rather than reorganizing them. In spontaneous whole-brain activity, we identify several key hub neurons and combinations that significantly destabilize module assignments when silenced. Together, these results demonstrate community detection and modularity as a method for detecting context and network state-dependent changes in functional connectivity at the intermediate scale of network modules in single-cell resolved neural activity. Results from these analyses facilitate future investigation of mechanisms that mediate organization of neural activity at intermediate scales.},
+  title    = {Network modularity reveals context and state-dependent reorganization of time-varying functional connectivity in single-cell resolved neural activity recordings},
+  author   = {Moon, Sihoon and Liang, Jingting and Lee, Hyun Jee and Maalouf, Ava and Yu, Zikai and Moza, Sahil and Zhang, Yun and Lu, Hang},
+  journal  = {bioRxiv},
+  year     = {2025},
+  month    = {11},
+  doi      = {10.1101/2025.11.02.686048},
+  abbr     = {bioRxiv},
+  preprint = {true}
+}
+
+@article{moza2023action,
+  kind     = {commentary},
+  title   = {Action at a distance: theoretical mechanisms of cross-dendritic heterosynaptic modification},
+  author  = {Moza, Sahil},
+  journal = {eNeuro},
+  volume  = {10},
+  number  = {11},
+  year    = {2023},
+  month   = {11},
+  doi     = {10.1523/ENEURO.0419-23.2023},
+  abbr    = {eNeuro},
+  note    = {Research highlight}
+}
+
+@article{harsharani2021switches,
+  project  = {memory},
+  kind     = {article},
+  title    = {SWITCHES: Searchable Web Interface for Topologies of CHEmical Switches},
+  author   = {HarshaRani, G. V. and Moza, Sahil and Ramakrishnan, Naren and Bhalla, Upinder S.},
+  journal  = {Bioinformatics},
+  year     = {2021},
+  month    = {01},
+  doi      = {10.1093/bioinformatics/btab006},
+  abbr     = {Bioinformatics},
+  selected = {true},
+  website  = {https://switches.ncbs.res.in}
+}
+
+@article{moza2020robustness,
+  project  = {memory},
+  kind     = {preprint},
+  title    = {Different dimensions of robustness - noise, topology and rates - are nearly independent in chemical switches},
+  author   = {Moza, Sahil and Bhalla, Upinder S.},
+  journal  = {bioRxiv},
+  year     = {2020},
+  month    = {08},
+  doi      = {10.1101/2020.08.01.232231},
+  abbr     = {bioRxiv},
+  preprint = {true},
+  selected = {true}
+}
+
+@incollection{bhatia2020patterned,
+  project  = {memory},
+  kind     = {chapter},
+  title     = {Patterned optogenetic stimulation using a DMD projector},
+  author    = {Bhatia, Aanchal and Moza, Sahil and Bhalla, Upinder S.},
+  booktitle = {Channelrhodopsin: Methods and Protocols},
+  publisher = {Humana, New York},
+  pages     = {173--188},
+  year      = {2020},
+  month     = {09},
+  doi       = {10.1007/978-1-0716-0830-2_11},
+  abbr      = {Book chapter}
+}
+
 @article{bhatia2019precise,
-  title={Precise excitation-inhibition balance controls gain and timing in the hippocampus},
-  author={Bhatia, Aanchal and Moza, Sahil and Bhalla, Upinder Singh},
-  journal={Elife},
-  volume={8},
-  pages={e43415},
-  year={2019},
-  publisher={eLife Sciences Publications Limited},
-  selected={true},
-  link={https://elifesciences.org/articles/43415},
-  url={https://elifesciences.org/articles/43415}
+  project  = {memory},
+  kind     = {article},
+  title    = {Precise excitation-inhibition balance controls gain and timing in the hippocampus},
+  author   = {Bhatia, Aanchal and Moza, Sahil and Bhalla, Upinder S.},
+  journal  = {eLife},
+  volume   = {8},
+  pages    = {e43415},
+  year     = {2019},
+  month    = {04},
+  doi      = {10.7554/eLife.43415},
+  abbr     = {eLife},
+  equal    = {2},
+  selected = {true},
+  award    = {Faculty Opinions "Exceptional" recommendation}
 }
 
-@article{moza2020different,
-  title={Different dimensions of robustness-noise, topology and rates-are nearly independent in chemical switches},
-  author={Moza, Sahil and Bhalla, Upinder S},
-  journal={BioRxiv},
-  year={2020},
-  publisher={Cold Spring Harbor Laboratory},
-  selected={true},
-  link={https://doi.org/10.1101/2020.08.01.232231},
-  url={https://doi.org/10.1101/2020.08.01.232231}
+@phdthesis{moza2020thesis,
+  project  = {memory},
+  kind     = {thesis},
+  title  = {Robust memory and precise balance: computation with biological network motifs},
+  author = {Moza, Sahil},
+  school = {National Centre for Biological Sciences, Tata Institute of Fundamental Research},
+  year   = {2020},
+  month  = {07},
+  abbr   = {PhD thesis},
+  pdf    = {/assets/pdf/thesis.pdf}
 }
-
-@article{harsharani2020switches,
-  title={SWITCHES: Searchable Web Interface for Topologies of CHEmical Switches.},
-  author={HarshaRani, GV and Moza, Sahil and Ramakrishnan, Naren and Bhalla, Upinder S},
-  journal={Bionformatics},
-  year={2021},
-  publisher={Oxford University Press},
-  selected={true},
-  url={https://doi.org/10.1093/bioinformatics/btab006},
-  link={https://doi.org/10.1093/bioinformatics/btab006}
-}
-
-@article{moza_action_2023,
-	title = {Action at a Distance: Theoretical Mechanisms of Cross-Dendritic Heterosynaptic Modification},
-	volume = {10},
-	copyright = {https://creativecommons.org/licenses/by-nc-sa/4.0/},
-	issn = {2373-2822},
-	shorttitle = {Action at a {Distance}},
-	url = {https://www.eneuro.org/lookup/doi/10.1523/ENEURO.0419-23.2023},
-	link = {https://www.eneuro.org/lookup/doi/10.1523/ENEURO.0419-23.2023},
-	doi = {10.1523/ENEURO.0419-23.2023},
-	abstract = {Highlighted Research Paper:
-                  T. Moldwin, M. Kalmenson, and I. Segev, “Asymmetric voltage attenuation in dendrites can enable hierarchical heterosynaptic plasticity.”
-                  eNeuro
-                  (2023).},
-	language = {en},
-	number = {11},
-	urldate = {2025-06-11},
-	journal = {eNeuro},
-	author = {Moza, Sahil},
-	month = nov,
-	year = {2023},
-	pages = {ENEURO.0419-23.2023},
-  	selected={true},
-}
-
-@incollection{bhatiapatterned,
-  title={Patterned Optogenetic Stimulation Using a DMD Projector},
-  author={Bhatia, Aanchal and Moza, Sahil and Bhalla, Upinder S},
-  booktitle={Channelrhodopsin},
-  pages={173--188},
-  publisher={Humana, New York, NY},
-  year={2020},
-  doi={10.1007/978-1-0716-0830-2_11},
-  link={https://doi.org/10.1007/978-1-0716-0830-2_11},
-  url={https://doi.org/10.1007/978-1-0716-0830-2_11}
-}
-
-@software{lhsmdu,
-  author       = {Sahil Moza},
-  title        = {{Github package sahilm89/lhsmdu: Latin Hypercube Sampling with 
-                   Multi-Dimensional Uniformity (LHSMDU): Speed Boost
-                   minor compatibility fixes}},
-  month        = jul,
-  year         = 2020,
-  version      = {1.1.1},
-  doi          = {10.5281/zenodo.3929531},
-  url          = {https://doi.org/10.5281/zenodo.3929531},
-  link          = {https://doi.org/10.5281/zenodo.3929531}
-}
-
-%% phdthesis{thesis,
-%    author     = {Sahil Moza},
-%    title      = {PhD Thesis: Robust memory and precise balance: Computation with biological network motifs},
-%    month      = July,
-%    year       = 2020,
-%    school     = {National Centre for Biological Sciences, Tata Institite of Fundamental Research},
-%    link       = {https://sahilmoza.com/assets/pdf/thesis.pdf}
-%}

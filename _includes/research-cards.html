@@ -1,0 +1,12 @@
+<div class="cards">
+{% for r in site.data.research %}
+  <a class="card" href="{{ r.url | relative_url }}">
+    <div class="card__media"><img src="{{ r.image | relative_url }}" alt="{{ r.alt }}" loading="lazy"></div>
+    <div class="card__body">
+      <p class="card__kicker">{{ r.period }}</p>
+      <h3>{{ r.title | markdownify | remove: '<p>' | remove: '</p>' }}</h3>
+      <p>{{ r.blurb | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+    </div>
+  </a>
+{% endfor %}
+</div>

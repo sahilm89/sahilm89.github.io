@@ -1,0 +1,54 @@
+// Publications page
+.pubs-group { padding: .25rem 0 .75rem; }
+.pubs-group h2 { font-family: var(--font-sans); font-size: .85rem; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); font-weight: 600; margin: 1.75rem 0 .25rem; padding-top: 1.25rem; border-top: 1px solid var(--line); }
+.page-head .lede a { color: var(--accent); }
+
+// Software / tools list
+.tools { list-style: none; margin: 0; padding: 0; }
+.tool { display: grid; grid-template-columns: 5.5rem minmax(0, 1fr); gap: 1.5rem; padding: 1.5rem 0; border-bottom: 1px solid var(--line); align-items: start; }
+.tool:last-child { border-bottom: 0; }
+.tool__logo { width: 5.5rem; height: 5.5rem; border: 1px solid var(--line); border-radius: 12px; background: #fff; display: flex; align-items: center; justify-content: center; padding: .55rem; overflow: hidden; }
+.tool__logo img { max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain; }
+.tool__logo--text { font-family: var(--font-serif); font-size: 1rem; color: #0f4f63; text-align: center; line-height: 1.15; }
+.tool h3 { margin: 0 0 .15rem; font-size: 1.2rem; }
+.tool__meta { font-size: .76rem; color: var(--muted); letter-spacing: .06em; text-transform: uppercase; margin: 0 0 .5rem; font-weight: 600; }
+.tool p { margin: 0 0 .7rem; color: var(--text-2); max-width: var(--measure); }
+@media (max-width: 599px) { .tool { grid-template-columns: 1fr; gap: .75rem; } .tool__logo { width: 4.5rem; height: 4.5rem; } }
+
+// CV page
+.cv-actions { display: flex; gap: .6rem; flex-wrap: wrap; margin: 0 0 1.5rem; }
+.cv-section { padding: 1.5rem 0; border-top: 1px solid var(--line); }
+.cv-section h2 { font-family: var(--font-sans); font-size: .85rem; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); font-weight: 600; margin: 0 0 1rem; }
+.cv-list { list-style: none; margin: 0; padding: 0; }
+.cv-list li { display: grid; grid-template-columns: minmax(0, 1fr) 10rem; gap: 1rem; padding: .5rem 0; }
+.cv-list .when { color: var(--muted); font-variant-numeric: tabular-nums; text-align: right; font-size: .92rem; padding-top: .1rem; }
+.cv-list .what { font-weight: 600; }
+.cv-list .where { display: block; color: var(--text-2); font-weight: 400; font-size: .95rem; }
+.cv-list .detail { display: block; color: var(--muted); font-weight: 400; font-size: .9rem; }
+.cv-bullets { margin: 0; padding-left: 1.2rem; color: var(--text-2); }
+.cv-bullets li { margin-bottom: .3rem; }
+.cv-cols { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem 3rem; }
+.cv-cols h3 { font-size: .95rem; margin-bottom: .35rem; }
+.cv-cols p { color: var(--text-2); font-size: .95rem; margin: 0 0 .5rem; }
+@media (max-width: 599px) { .cv-list li { grid-template-columns: 1fr; gap: 0; } .cv-list .when { text-align: left; } .cv-cols { grid-template-columns: 1fr; } }
+
+// Research pages
+.research-head, .research-papers { max-width: var(--measure); }
+.research-head .eyebrow a { text-decoration: none; }
+.research-head h1 { font-size: clamp(2rem, 3.6vw, 2.75rem); }
+.research-head .meta { display: flex; flex-wrap: wrap; gap: 1rem 2.5rem; margin: 1.25rem 0 1rem; }
+.research-head .meta div { max-width: 24rem; }
+.research-head .meta dt { font-size: .74rem; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); font-weight: 600; margin: 0 0 .15rem; }
+.research-head .meta dd { margin: 0; color: var(--text-2); font-size: .95rem; line-height: 1.5; }
+.research-body { padding-bottom: 1rem; }
+.research-body h2 { font-size: 1.65rem; margin-top: 2.5rem; }
+.research-body h3 { margin-top: 1.75rem; }
+.research-body .lead { font-size: 1.14rem; color: var(--text-2); }
+.research-body .figure { max-width: none; }
+.research-body .figure--wide { width: calc(100% + 12rem); margin-left: -6rem; }
+.figure-row--1-2 { grid-template-columns: minmax(0, 1fr) minmax(0, 2fr); }
+@media (max-width: 1100px) { .research-body .figure--wide { width: 100%; margin-left: 0; } }
+.stat-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.stat { border: 1px solid var(--line); border-radius: 12px; padding: .9rem 1rem; background: var(--bg-elev); }
+.stat b { display: block; font-family: var(--font-serif); font-size: 1.7rem; font-weight: 500; line-height: 1.1; color: var(--text); }
+.stat span { font-size: .85rem; color: var(--muted); }

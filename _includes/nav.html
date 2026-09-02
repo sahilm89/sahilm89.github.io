@@ -1,0 +1,15 @@
+<header class="site-header">
+  <div class="wrap nav-row">
+    <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Menu"><span></span><span></span><span></span></button>
+    <nav id="site-nav" class="site-nav" aria-label="Site">
+      {% for item in site.nav %}
+        {%- assign current = false -%}
+        {%- if page.url == item.url -%}{%- assign current = true -%}
+        {%- elsif page.url contains item.url -%}{%- assign current = true -%}{%- endif -%}
+      <a href="{{ item.url | relative_url }}"{% if current %} aria-current="page"{% endif %}>{{ item.title }}</a>
+      {% endfor %}
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode">{% include icons.html id="sun" %}{% include icons.html id="moon" %}</button>
+    </nav>
+  </div>
+</header>

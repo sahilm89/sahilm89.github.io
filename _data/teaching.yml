@@ -1,0 +1,37 @@
+courses:
+  - what: Introduction to Computational Neuroscience I and II
+    where: Scienspur, free online life-science courses for undergraduates worldwide
+    detail: Instructor
+    when: Winter 2023
+    url: https://scienspur.org
+  - what: Computational Approaches to Memory and Plasticity (CAMP)
+    where: National Centre for Biological Sciences, Bangalore
+    detail: Teaching assistant and organizer, five summer schools
+    when: Summers 2014–2018
+    url: https://camp.ncbs.res.in
+  - what: Boston Bangalore Biosciences Beginnings (B4) Neuroscience School
+    where: Harvard University and NCBS
+    detail: Teaching assistant and organization
+    when: Winter 2016
+mentoring:
+  - what: Master's thesis student, Zhang Lab
+    where: Whole-brain imaging and behaviour; co-author on the whole-brain learning preprint
+    detail: Now a PhD student at a Max Planck institute
+    when: 2023–2025
+materials:
+  - name: Computational approaches to neuroscience
+    meta: Jupyter notebooks · Python
+    image: /assets/img/python.png
+    blurb: >-
+      A sequence of notebooks organized around the CAMP syllabus, starting from elementary Python with
+      examples a neuroscience student already cares about and building up to models of neurons, synapses and networks.
+    links:
+      - { label: GitHub, url: "https://github.com/sahilm89/Computational-approaches-to-neuroscience" }
+  - name: RUSMALAI journal club
+    meta: Jupyter notebooks · Python
+    image: /assets/img/perceptron.png
+    blurb: >-
+      Pedagogical implementations written for a machine-learning journal club at NCBS covering reinforcement,
+      unsupervised and supervised learning, from perceptrons up.
+    links:
+      - { label: GitHub, url: "https://github.com/sahilm89/rusmalai-ncbs" }

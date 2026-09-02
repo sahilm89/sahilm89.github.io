@@ -1,21 +1,18 @@
-{% if site.footer_fixed %}
-<footer class="fixed-bottom">
-  <div class="container mt-0">
-    &copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}.
-    {{ site.footer_text }}
-    {% if site.last_updated %}
-    Last updated: {{ "now" | date: '%B %d, %Y' }}.
-    {% endif %}
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <p class="footer__name">{{ site.title }}</p>
+      <p class="muted">{{ site.profile.lab }} · {{ site.profile.department }}<br>{{ site.profile.institution }}, {{ site.profile.location }}</p>
+      <p><a href="mailto:{{ site.profile.email }}">{{ site.profile.email }}</a></p>
+    </div>
+    <ul class="social" aria-label="Profiles">
+      <li><a href="mailto:{{ site.profile.email }}" aria-label="Email" title="Email">{% include icons.html id="mail" %}</a></li>
+      {% if site.social.orcid %}<li><a href="https://orcid.org/{{ site.social.orcid }}" aria-label="ORCID" title="ORCID">{% include icons.html id="orcid" %}</a></li>{% endif %}
+      {% if site.social.scholar %}<li><a href="https://scholar.google.com/citations?user={{ site.social.scholar }}" aria-label="Google Scholar" title="Google Scholar">{% include icons.html id="scholar" %}</a></li>{% endif %}
+      {% if site.social.github %}<li><a href="https://github.com/{{ site.social.github }}" aria-label="GitHub" title="GitHub">{% include icons.html id="github" %}</a></li>{% endif %}
+      {% if site.social.linkedin %}<li><a href="https://www.linkedin.com/in/{{ site.social.linkedin }}" aria-label="LinkedIn" title="LinkedIn">{% include icons.html id="linkedin" %}</a></li>{% endif %}
+      {% if site.social.twitter != "" %}<li><a href="https://x.com/{{ site.social.twitter }}" aria-label="X" title="X">{% include icons.html id="x" %}</a></li>{% endif %}
+    </ul>
+    <p class="footer__meta">© {{ site.time | date: '%Y' }} {{ site.title }} · Updated {{ site.time | date: '%B %Y' }} · <a href="https://github.com/sahilm89/sahilm89.github.io">Source</a></p>
   </div>
 </footer>
-{% else %}
-<footer class="sticky-bottom mt-5">
-  <div class="container">
-    &copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}.
-    {{ site.footer_text }}
-    {% if site.last_updated %}
-    Last updated: {{ "now" | date: '%B %d, %Y' }}.
-    {% endif %}
-  </div>
-</footer>
-{% endif %}

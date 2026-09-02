@@ -1,0 +1,38 @@
+body.variant-b {
+  --bg: #f7f4ee; --bg-elev: #fffdf9; --line: #e6e0d3; --line-strong: #d2cabb;
+  --accent: #0f5a70; --accent-ink: #0b4658; --accent-soft: #e6eff1; --warm: #a86a12;
+}
+[data-theme="dark"] body.variant-b {
+  --bg: #141210; --bg-elev: #1c1916; --line: #2e2a25; --line-strong: #403a32;
+  --accent: #6fc7df; --accent-ink: #8ed6ea; --accent-soft: #1b2f33; --warm: #e0a24a;
+}
+body.variant-b {
+  .hero .eyebrow { display: none; }
+  .hero { grid-template-columns: minmax(0, 1fr) 21rem; gap: 4rem; padding: 4.5rem 0 3rem; align-items: center; }
+  h1 { font-size: clamp(3rem, 6.5vw, 4.9rem); font-weight: 400; letter-spacing: -.022em; margin: 0 0 .3em; }
+  .hero__thesis { font-family: var(--font-serif); font-style: italic; font-size: clamp(1.35rem, 2.2vw, 1.75rem); line-height: 1.3; color: var(--text-2); margin: 0 0 1.4rem; max-width: 30ch; }
+  .hero__role { font-size: .95rem; color: var(--muted); margin-bottom: 1.5rem; }
+  .hero__lede { font-size: 1.1rem; }
+  .hero__portrait { position: relative; margin: 0; padding: 2.5rem; }
+  .hero__portrait img { position: relative; z-index: 1; border-radius: 50%; box-shadow: none; border: 6px solid var(--bg); }
+  .hero__motif { position: absolute; left: -38%; right: -38%; top: -38%; bottom: -38%; color: var(--accent); z-index: 0; pointer-events: none; }
+  .hero__motif svg { width: 100%; height: 100%; }
+  .section { border-top: 1px solid var(--line-strong); padding: 3rem 0; }
+  .section__head h2 { font-weight: 400; font-size: clamp(1.8rem, 3vw, 2.3rem); }
+  .section__num { font-family: var(--font-sans); font-size: .78rem; letter-spacing: .14em; color: var(--warm); font-weight: 600; margin-right: .8rem; vertical-align: .4em; }
+  .card { border: 0; background: transparent; border-radius: 0; }
+  .card:hover { transform: none; box-shadow: none; }
+  .card:hover .card__media { border-color: var(--accent); }
+  .card__media { border-radius: var(--radius); border: 1px solid var(--line); transition: border-color .18s; }
+  .card__body { padding: 1.1rem .1rem 0; }
+  .card__kicker { color: var(--warm); }
+  .card__body h3 { font-family: var(--font-serif); font-weight: 500; font-size: 1.45rem; line-height: 1.2; letter-spacing: -.01em; }
+  .badge { background: transparent; }
+  .btn--primary { background: var(--accent-ink); border-color: var(--accent-ink); }
+  @media (max-width: 719px) {
+    .hero { grid-template-columns: 1fr; gap: 1rem; padding-top: 2rem; }
+    .hero__portrait { width: 11rem; padding: 0; }
+    .hero__motif { display: none; }
+    .hero__portrait img { border: 0; }
+  }
+}
