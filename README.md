@@ -13,7 +13,7 @@ rendered from `_bibliography/papers.bib` by jekyll-scholar.
     bin/preview
 
 Builds with `_config_preview.yml` (subpath, noindex, no CNAME) and force-pushes the result to
-`sahilm89/site-preview`, served at https://sahilm89.github.io/site-preview/.
+`sahilm89/site-preview`, served at https://www.sahilmoza.com/site-preview/ (GitHub serves project sites under the user site's custom domain).
 
 ## Deploy
 
