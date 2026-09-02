@@ -20,6 +20,13 @@ Builds with `_config_preview.yml` (subpath, noindex, no CNAME) and force-pushes 
 Pushing to `master` runs `.github/workflows/deploy.yml`, which builds and deploys to GitHub Pages
 (repository Settings → Pages → Source must be "GitHub Actions").
 
+## Rollback to the previous site
+
+The pre-2026 al-folio site is preserved: source at tag `v1-alfolio-source`, the exact built output
+that was live at tag `v1-alfolio-live` and on the untouched `gh_pages` branch. To restore it instantly,
+set Settings → Pages → Source to "Deploy from a branch", branch `gh_pages`, folder `/`.
+To restore the source: `git checkout v1-alfolio-source`.
+
 ## Edit content
 
 | What                | Where                                   |
