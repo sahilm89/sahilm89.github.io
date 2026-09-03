@@ -1,6 +1,6 @@
 courses:
-  - what: Introduction to Computational Neuroscience I and II
-    where: Scienspur, free online life-science courses for undergraduates worldwide
+  - what: "Scienspur: Introduction to Computational Neuroscience I and II"
+    where: Free online life-science courses for undergraduates worldwide
     detail: Instructor
     when: Winter 2023
     url: https://scienspur.org
