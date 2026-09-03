@@ -1,0 +1,6 @@
+---
+layout: redirect
+permalink: /blog/2020/github-metadata/
+redirect_to: /
+sitemap: false
+---

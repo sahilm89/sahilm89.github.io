@@ -24,6 +24,7 @@ profile:
   institution_url: https://www.oeb.harvard.edu
   location: Cambridge, Massachusetts
   email: sahil.moza@gmail.com
+  email_alt: sahilmoza@fas.harvard.edu
   cv: /assets/pdf/SahilCV.pdf
   job_market: ""   # set to "" to hide
 
@@ -52,12 +53,14 @@ include: [_pages]
 exclude: [Gemfile, Gemfile.lock, README.md, LICENSE, bin, vendor, node_modules, _config_preview.yml]
 defaults:
   - scope: { path: "" }
-    values: { layout: page, image: /assets/img/portrait.jpg }
+    values: { layout: page, image: /assets/img/social-card.png }
 
 collections:
   research:
     output: true
     permalink: /research/:name/
+  redirects:
+    output: true
 
 plugins:
   - jekyll-scholar
@@ -78,3 +81,4 @@ scholar:
   join_strings: true
   use_raw_bibtex_entry: true
   bibtex_filters: [latex, smallcaps, superscript]
+  bibtex_skip_fields: [abbr, selected, preprint, kind, project, equal, award, pdf, code, website, abstract, month_numeric]

@@ -1,5 +1,6 @@
 - name: CeDNe
   meta: Python · MIT · 2024–present · lead developer
+  repo: sahilm89/CeDNe
   image: /assets/img/cedne-logo.svg
   blurb: >-
     Connectome-embedded Dynamical Networks. A graph-based framework that integrates the *C. elegans* connectome,
@@ -24,6 +25,7 @@
 
 - name: LHSMDU
   meta: Python · 2020 · on PyPI
+  repo: sahilm89/lhsmdu
   image: /assets/img/lhsmdu.svg
   blurb: >-
     Latin Hypercube Sampling with Multi-Dimensional Uniformity. A small library for sampling high-dimensional
@@ -35,6 +37,7 @@
 
 - name: NeuroRD-SBML
   meta: Python · 2022
+  repo: sahilm89/neurord-sbml
   logo_text: RD → SBML
   blurb: >-
     Translates NeuroRD reaction–diffusion models into SBML with units, so biophysical signaling models can be

@@ -2,6 +2,13 @@ program:
   - Brain-wide mechanisms of learning and behavioral flexibility in *C. elegans*.
   - Computational frameworks linking connectome structure to neural dynamics and behavior.
   - Research software for multimodal neural data integration, simulation and optimization.
+ongoing:
+  - what: Whole-brain learning dynamics in <em>C. elegans</em>
+    where: Co-leading a multi-institutional project on context-gated reorganization of neural activity; manuscript under revision
+    when: 2023–present
+  - what: CeDNe
+    where: Connectome-driven framework for integrating multimodal data with simulation and optimization workflows; preprint posted
+    when: 2024–present
 positions:
   - what: Postdoctoral Fellow
     where: Department of Organismic and Evolutionary Biology, Harvard University, Cambridge

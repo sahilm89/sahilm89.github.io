@@ -37,7 +37,7 @@ em { font-style: italic; }
 .prose img { border-radius: var(--radius); }
 pre { overflow-x: auto; background: var(--bg-elev); border: 1px solid var(--line); border-radius: 10px; padding: .9rem 1.1rem; font-size: .9rem; line-height: 1.5; }
 code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: .92em; }
-p code, li code { background: var(--accent-soft); padding: .05em .35em; border-radius: 4px; }
+:not(pre) > code { background: var(--accent-soft); padding: .05em .35em; border-radius: 4px; }
 .muted { color: var(--muted); }
 .small { font-size: .875rem; }
 .eyebrow { font-size: .78rem; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); font-weight: 600; margin: 0 0 .9rem; }

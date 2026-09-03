@@ -61,9 +61,9 @@ seven million models in total.
 
 <figure class="figure">
   <div class="figure-row">
-    <img src="{{ '/assets/img/two-rupees.png' | relative_url }}" alt="A coin resting on one face">
+    <img src="{{ '/assets/img/two-rupees.webp' | relative_url }}" alt="A coin resting on one face">
     <img src="{{ '/assets/img/FlipFlop.svg' | relative_url }}" alt="An electronic flip-flop">
-    <img src="{{ '/assets/img/cdk-pp2a-bistable.png' | relative_url }}" alt="The Cdk1 PP2A bistable reaction network">
+    <img src="{{ '/assets/img/cdk-pp2a-bistable.webp' | relative_url }}" alt="The Cdk1 PP2A bistable reaction network">
   </div>
   <figcaption>Three bistable systems: a coin, a flip-flop and the Cdk1–PP2A network that gates mitosis. Each holds one of two states and can be pushed between them.</figcaption>
 </figure>

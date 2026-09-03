@@ -25,6 +25,9 @@
 .pub__abstract summary::-webkit-details-marker { display: none; }
 .pub__abstract[open] summary { margin-bottom: .4rem; }
 .pub__abstract p { margin: 0; max-width: var(--measure); }
+.pub__bibtex { margin-top: .35rem; }
+.pub__bibtex pre { margin: 0; font-size: .78rem; line-height: 1.45; max-width: var(--measure); white-space: pre-wrap; word-break: break-word; }
+.pub__abstract + .pub__bibtex { margin-top: .25rem; }
 .eqnote { font-size: .85rem; color: var(--muted); margin: .9rem 0 0; }
 @media (max-width: 599px) {
   .pub { grid-template-columns: 1fr; gap: .35rem; }

@@ -34,5 +34,6 @@
       {% if entry.website %}<a class="chip" href="{{ entry.website }}">Website</a>{% endif %}
     </div>
     {% if entry.abstract %}<details class="pub__abstract"><summary>Abstract</summary><p>{{ entry.abstract }}</p></details>{% endif %}
+    <details class="pub__abstract pub__bibtex"><summary>BibTeX</summary><pre><code>{{ entry.bibtex | strip }}</code></pre></details>
   </div>
 </article>

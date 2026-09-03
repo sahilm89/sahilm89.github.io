@@ -34,6 +34,6 @@ layout: default
 </section>
 
 <section class="wrap section" id="news">
-  <div class="section__head"><h2>{% if site.variant == "b" %}<span class="section__num">03</span>{% endif %}News</h2></div>
+  <div class="section__head"><h2>{% if site.variant == "b" %}<span class="section__num">03</span>{% endif %}News</h2><a class="more" href="{{ '/news/' | relative_url }}">All news</a></div>
   {% include news.html limit=6 %}
 </section>

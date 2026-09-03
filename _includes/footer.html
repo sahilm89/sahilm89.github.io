@@ -3,7 +3,7 @@
     <div>
       <p class="footer__name">{{ site.title }}</p>
       <p class="muted">{{ site.profile.lab }} · {{ site.profile.department }}<br>{{ site.profile.institution }}, {{ site.profile.location }}</p>
-      <p><a href="mailto:{{ site.profile.email }}">{{ site.profile.email }}</a></p>
+      <p><a href="mailto:{{ site.profile.email }}">{{ site.profile.email }}</a>{% if site.profile.email_alt %}<br><a href="mailto:{{ site.profile.email_alt }}">{{ site.profile.email_alt }}</a>{% endif %}</p>
     </div>
     <ul class="social" aria-label="Profiles">
       <li><a href="mailto:{{ site.profile.email }}" aria-label="Email" title="Email">{% include icons.html id="mail" %}</a></li>

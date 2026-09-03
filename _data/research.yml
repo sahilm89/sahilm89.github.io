@@ -2,8 +2,8 @@
   period: 2022–present · Zhang Lab, Harvard
   blurb: >-
     With brain-wide imaging of *C. elegans* before and after aversive learning, we ask how an entire nervous
-    system reorganizes. I lead the computational analysis and modeling. Preprint out; full write-up coming soon.
-  image: /assets/img/research/wholebrain/card.png
+    system reorganizes. I co-lead the project and lead its computational analysis and modeling. Preprint out; full write-up coming soon.
+  image: /assets/img/research/wholebrain/card.webp
   alt: Inferred fixed points of brain-wide dynamics moving toward the no-food state after training
   url: /research/whole-brain-learning/
 

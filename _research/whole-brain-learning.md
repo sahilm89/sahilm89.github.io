@@ -16,9 +16,9 @@ papers: whole-brain
 <p class="lead">A full description of this project is coming soon. Until then, the
 <a href="https://doi.org/10.1101/2025.10.31.685731">preprint</a> is the reference.</p>
 
-In a collaboration between the Zhang and Lu labs, we image brain-wide activity in *C. elegans* before and after
-aversive olfactory learning and ask how the whole nervous system reorganizes. I lead the computational analysis
-and modeling: tensor decomposition across imaging strains, population geometry, dynamical-systems models and
+I co-lead this multi-institutional project between the Zhang and Lu labs. We image brain-wide activity in
+*C. elegans* before and after aversive olfactory learning and ask how the whole nervous system reorganizes. On the
+computational side I lead the analysis and modeling: tensor decomposition across imaging strains, population geometry, dynamical-systems models and
 network analysis, all run in [CeDNe]({{ '/research/cedne/' | relative_url }}) on the named-neuron connectome.
 
 The preprint reports that learning induces a context-gated reconfiguration of neural activity throughout the

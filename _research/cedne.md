@@ -39,7 +39,7 @@ molecular and functional annotations live together and can be analysed, simulate
 - Ships thirty example notebooks, from loading a connectome to motif-based simulation and fitting.
 
 <figure class="figure">
-  <img src="{{ '/assets/img/research/cedne/connectome-folded.png' | relative_url }}" alt="The chemical connectome folded by neuron class, drawn as a circular graph" loading="lazy">
+  <img src="{{ '/assets/img/research/cedne/connectome-folded.svg' | relative_url }}" alt="The chemical connectome folded by neuron class, drawn as a circular graph" loading="lazy">
   <figcaption>The chemical connectome folded by neuron class. Folding is a first-class operation: any grouping of neurons becomes a network whose edges inherit the synapse counts.</figcaption>
 </figure>
 
@@ -61,14 +61,14 @@ about three specific cells.
 ## In the browser
 
 <figure class="figure">
-  <img src="{{ '/assets/img/research/cedne/webapp.png' | relative_url }}" alt="The CeDNe web workbench: a 3D graph of the connectome with data-source and analysis panels" loading="lazy">
+  <img src="{{ '/assets/img/research/cedne/webapp.webp' | relative_url }}" alt="The CeDNe web workbench: a 3D graph of the connectome with data-source and analysis panels" loading="lazy">
   <figcaption>The web app at <a href="https://beta.cedne.org">beta.cedne.org</a> runs the same core: load a connectome, overlay transcriptome or neuropeptide data, search motifs and run simulations in 3D, with no install.</figcaption>
 </figure>
 
 ## Compared with other tools
 
 <figure class="figure figure--wide">
-  <a href="{{ '/assets/img/research/cedne/capability-matrix.png' | relative_url }}"><img src="{{ '/assets/img/research/cedne/capability-matrix.png' | relative_url }}" alt="Feature comparison matrix of connectome and modeling tools across modeling, network analysis, data modalities and access" loading="lazy"></a>
+  <a href="{{ '/assets/img/research/cedne/capability-matrix.webp' | relative_url }}"><img src="{{ '/assets/img/research/cedne/capability-matrix.webp' | relative_url }}" alt="Feature comparison matrix of connectome and modeling tools across modeling, network analysis, data modalities and access" loading="lazy"></a>
   <figcaption>Feature-based comparison with connectome and modeling tools, from the preprint. Click to enlarge.</figcaption>
 </figure>
 
