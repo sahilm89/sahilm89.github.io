@@ -8,6 +8,10 @@ rendered from `_bibliography/papers.bib` by jekyll-scholar.
     bundle install
     LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 bundle exec jekyll serve
 
+On the macOS system Ruby, `bundle install` may ask for sudo to write into `/Library/Ruby/Gems`.
+Instead install the missing gem into your user directory, for example
+`gem install liquid -v 4.0.4 --user-install`, then run `bundle check`.
+
 ## Preview online before going live
 
     bin/preview
