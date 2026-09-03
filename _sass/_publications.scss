@@ -29,3 +29,6 @@
 @media (max-width: 599px) {
   .pub { grid-template-columns: 1fr; gap: .35rem; }
 }
+@media (pointer: coarse) {
+  .chip { padding: .45rem .8rem; font-size: .82rem; }
+}

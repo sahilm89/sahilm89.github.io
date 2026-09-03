@@ -13,7 +13,6 @@ links:
   - { label: Bioinformatics 2021, url: "https://doi.org/10.1093/bioinformatics/btab006" }
   - { label: SWITCHES database, url: "https://switches.ncbs.res.in" }
   - { label: Thesis PDF, url: /assets/pdf/thesis.pdf }
-math: true
 ---
 <p class="lead">My PhD asked how memory could be physically robust at two very different scales: a feedforward
 microcircuit in the hippocampus, and reaction networks small enough to fit inside a dendritic spine.</p>
