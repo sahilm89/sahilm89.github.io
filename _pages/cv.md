@@ -2,7 +2,6 @@
 layout: wide
 title: Curriculum vitae
 permalink: /cv/
-description: A condensed CV. The PDF has everything, including full author lists and dates.
 ---
 <div class="cv-actions">
   <a class="btn btn--primary" href="{{ site.profile.cv | relative_url }}">Download the full CV <span class="btn__meta">PDF</span></a>
